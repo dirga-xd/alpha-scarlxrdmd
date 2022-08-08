@@ -3,13 +3,13 @@ exports.wait = () => {
 }
 
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `Done ✔️`
 }
 
 exports.err = () => {
     return `‼️Fitur Sedang Error‼️
 
-⏳Sedang melapor bug fitur ke owner-sama⏳`
+⏳Sedang melapor bug fitur ke owner⏳`
 }
 
 exports.wrongFormat = (prefix) => {
@@ -25,11 +25,11 @@ exports.cmdNotFound = (cmd, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `⚠️ Command ini khusus Owner-sama! ⚠️`
+    return `⚠️ Command ini khusus Owner! ⚠️`
 }
 
 exports.doneOwner = () => {
-    return `✔  ️Sudah selesai, Owner-sama~`
+    return `✔  ️Sudah selesai, Owner`
 }
 
 exports.groupOnly = () => {
@@ -166,16 +166,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}cringe
 └──────
 
-🙏 *THANKS*
-├ My god
-├ My parents
-├ Rashid
-├ Xfarr api
-├ Fatih A.
-├ ZeeoneOfc
-├ Baileys#multi-device
-├ And all support
-└──────
 
     `
 }
@@ -232,7 +222,7 @@ exports.tos = (ownerNumber, prefix) => {
 
 Hai 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
-🏧 0887435047326 (OVO/Dana/GoPay)
+🏧 083821123163 (OVO/Dana)
 
 Berapapun donasi kalian akan sangat berarti 👍
 
